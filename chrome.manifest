@@ -1,0 +1,2 @@
+content	imapreceiveddate content/
+overlay	chrome://messenger/content/messenger.xul chrome://imapreceiveddate/content/received.xul
