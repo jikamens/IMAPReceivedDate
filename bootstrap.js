@@ -1,5 +1,4 @@
 function startup() {
-    console.log('foobar');
     var prefBranch = Components.classes["@mozilla.org/preferences-service;1"]
         .getService(Components.interfaces.nsIPrefBranch);
     var prefName = "mailnews.customDBHeaders";
