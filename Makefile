@@ -9,7 +9,6 @@ FILES=$(shell $(CMD))
 all: $(XPI)
 
 $(XPI): $(FILES)
-	./send-later/utils/make-kickstarter.sh
 	rm -f $@.tmp
 	zip -r $@.tmp $(FILES)
 	mv $@.tmp $@
